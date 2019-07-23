@@ -257,6 +257,54 @@
             }
         ]
     }
+     "Altin": {
+        "Name": "Altin",
+        "Image": "placeholder.png"
+        "FlavourText": "The winding, water-logged mining caverns hide many secrets and many dangers. An Adept who is clever, cautious, and courageous just might be able to navigate the mine's perils and reap rich rewards.",
+ },
+    "Matchups": [
+        {
+            "EnemyNames": [ "Mimic" ] ,
+            "Reward": {
+                "gold": 200
+                "ChestProbability": 100,
+                "Chest": "Normal",
+            },
+            "FlavourText": "No such thing as a free loot."
+        },
+        {
+            "EnemyNames": [ "Rat Fighter", "Rat Fighter", "Ape", "Rat Fighter" ] ,
+            "Reward": {
+                "xp": 80,
+                "gold": 90,
+            },
+            "FlavourText": "Mighty rat warriors have no tolerance for intruders!"
+        },
+        {
+            "EnemyNames": [ "Bone Fighter", "Tarantula", "Dirge" ] ,
+            "Reward": {
+                "xp": 80,
+                "gold": 20
+                "ItemProbability": 5,
+                "Item": "Prophets Hat"
+                "ChestProbability": 7,
+                "Chest": "Normal",
+            },
+            "FlavourText": "The Halloween special!"
+        },
+        {
+            "EnemyNames": [ "Spritz" ] ,
+            "Reward": {
+                "xp": 200,
+                "gold": 100,
+                "ItemProbability": 30,
+                "Item": "Blessed Robe"
+                "Chest Probability": 20,
+                "Chest": "Silver",
+            },
+            "FlavourText": "Light and refreshing!"
+        },
+        
      "Kalay": {
         "Name": "Kalay",
         "Image": "placeholder.png",
@@ -287,6 +335,25 @@
                 },
                 "FlavourText": "Where there are merchants, there will be thieves."
             }
+            {
+                "EnemyNames": [ "Death Cap", "Undead", "Death Cap" ] ,
+                "Reward": {
+                    "xp": 100,
+                    "gold": 75,
+                    "ChestProbability": 10,
+                    "Chest": "Wooden",
+                },
+                "FlavourText": "Don't eat strange mushrooms..."
+}
+            {
+                "EnemyNames": [ "Fighter Bee", "Fighter Bee", "Fighter Bee", "Fighter Bee", "Fighter Bee", "Fighter Bee", "Fighter Bee", "Fighter Bee" ] ,
+                "Reward": {
+                    "xp": 200,
+                    "gold": 200,
+                    "ItemProbability": 20,
+                    "Item": "Battle Rapier",
+                },
+                "FlavourText": "They don't allow you to have bees in here."
             ]
 },
         
