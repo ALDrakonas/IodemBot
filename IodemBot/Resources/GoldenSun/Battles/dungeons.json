@@ -257,4 +257,39 @@
             }
         ]
     }
+     "Kalay": {
+        "Name": "Kalay",
+        "Image": "placeholder.png",
+        "FlavourText": "The bustling seaside trading hub in the heart of Angara.",
+     },
+        "Matchups": [
+            {
+                "EnemyNames": [ "Scorch" ] ,
+                "Reward": {
+                       "xp": 200,
+                       "gold": 100,
+                       "ItemProbability": 12,
+                       "Item": "War Ring",
+                       "ChestProbability": 10,
+                       "Chest": "Normal",
+                },
+                "FlavourText": "A wild Mars Djinni appears!"
+            },
+            {
+                "EnemyNames": [ "Bandit", "Brigand", "Bandit" ] ,
+                "Reward": {
+                    "xp": 500
+                    "gold": 100
+                    "ItemProbability": 50,
+                    "Item": "Vambrace",
+                    "ChestProbability": 30,
+                    "Chest": "Wooden",
+                },
+                "FlavourText": "Where there are merchants, there will be thieves."
+            }
+            ]
+},
+        
+            
+                       
 }
