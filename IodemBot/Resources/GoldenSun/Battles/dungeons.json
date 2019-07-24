@@ -304,6 +304,46 @@
             },
             "FlavourText": "Light and refreshing!"
         },
+        {
+            "EnemyNames": [ "Slime Beast", "Slime Beast", "Bone Fighter", "Slime Beast" ] ,
+            "Reward": {
+                "xp": 80,
+                "gold": 30,
+            },
+            "FlavourText": "Careful, this could be a sticky situation!"
+        },
+        {
+            "EnemyNames": [ "Living Statue" ] ,
+            "Reward": {
+                "xp": 120,
+                "gold": 50,
+                "ChestProbability": 10,
+                "Chest": "Silver",
+            },
+            "FlavourText": "A dragon-like statue that spews water. It'd be kind of cute if it wasn't attacking!"
+        },
+        {
+            "EnemyNames": [ "Living Statue", "Living Statue", "Living Statue" ] ,
+            "Reward": {
+                "xp": 360,
+                "gold": 150,
+                "ItemProbability": 15,
+                "Item": "Pure Circlet",
+                "ChestProbability": 15,
+                "Chest": "Silver",
+            },
+            "FlavourText": "Mo' monsters, mo' problems."
+        },
+        {
+            "EnemyNames": [ "Living Statue", "Hydros Statue", "Living Statue" ] ,
+            "Reward": {
+                "xp": 500,
+                "gold": "250,
+                "ChestProbability": 50,
+                "Chest": "Gold",
+            },
+            "FlavourText": "Here comes the big one!"
+        },
         
      "Kalay": {
         "Name": "Kalay",
@@ -319,22 +359,42 @@
                        "ItemProbability": 12,
                        "Item": "War Ring",
                        "ChestProbability": 10,
-                       "Chest": "Normal",
+                       "Chest": "Silver",
                 },
                 "FlavourText": "A wild Mars Djinni appears!"
             },
             {
+                "EnemyNames": [ "Vine" ] ,
+                "Rewards": {
+                    "xp": 200,
+                    "gold": 100,
+                    "ItemProbability": 12,
+                    "Item": "Elven Shirt",
+                    "ChestProbability": 10,
+                    "Chest": "Silver",
+                }
+                "FlavourText": "Who'd've thought this little guy would be out here in the middle of nowhere?"
+            },
+            {
+                "EnemyNames": [ "Ruffian", "Bandit", "Thief", "Bandit", "Ruffian" ] ,
+                "Reward": {
+                    "xp": 100,
+                    "gold": 30,
+                }
+                "FlavourText": "Colosso hopefuls and local barflies who've all imbibed a bit too much and are looking for a fight."
+            {
                 "EnemyNames": [ "Bandit", "Brigand", "Bandit" ] ,
                 "Reward": {
-                    "xp": 500
-                    "gold": 100
+                    "xp": 500,
+                    "gold": 100,
                     "ItemProbability": 50,
                     "Item": "Vambrace",
                     "ChestProbability": 30,
                     "Chest": "Wooden",
                 },
                 "FlavourText": "Where there are merchants, there will be thieves."
-            }
+            },
+    
             {
                 "EnemyNames": [ "Death Cap", "Undead", "Death Cap" ] ,
                 "Reward": {
@@ -354,6 +414,8 @@
                     "Item": "Battle Rapier",
                 },
                 "FlavourText": "They don't allow you to have bees in here."
+            },
+            
             ]
 },
         
