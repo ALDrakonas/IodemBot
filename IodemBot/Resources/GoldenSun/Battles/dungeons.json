@@ -418,7 +418,31 @@
             
             ]
 },
-        
-            
-                       
+ "Karagol Sea": {       
+ "Name": "Karagol Sea",
+        "Image": "placeholder.png",
+        "FlavourText": "The vast Karagol Sea! Its waters have claimed many an incautious sailor's life, and its monsters still more.",
+        "Requirement": {
+            "MinLevel": 30,
+        },        
+        "Matchups": [
+            {
+                "EnemyNames": [ "Sean" ],
+                "Reward": { 
+                    "xp": 50,
+                    "gold": 10,
+                },
+                "FlavourText": "Up for a friendly sparring match?."
+            }, 
+            {
+                "EnemyNames": [ "Man o' War", "Man o' War", "Man o' War" ],
+                "Reward": {
+                    "ChestProbability": 50,
+                    "Chest": "Wooden"
+                },
+                "FlavourText": "Man o' War attack!"
+            } 
+        ]
+    },            
+},                    
 }
